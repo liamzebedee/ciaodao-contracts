@@ -1,0 +1,82 @@
+{
+  "contractName": "GameDAO",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/gamedao/GameDAO.sol\":\"GameDAO\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/gamedao/GameDAO.sol\":{\"keccak256\":\"0x8bfef7d3783f9d92f5cecf3b2b89ca75426d882ec1b9c7c899022fa803eb01fb\",\"urls\":[\"bzzr://603f734134baed1ea4d5f09a5599e86e4eca0ab4aa8b2ea421c2308b14d3a176\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058204c039f0334ee0a03b3d3784c77bb1c99c6d88dc8f8ecc720dbdf1b658b0ddb980029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058204c039f0334ee0a03b3d3784c77bb1c99c6d88dc8f8ecc720dbdf1b658b0ddb980029",
+  "sourceMap": "29:19:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;29:19:5;;;;;;;",
+  "deployedSourceMap": "29:19:5:-;;;;;",
+  "source": "// lol this one will be fun \ncontract GameDAO {}",
+  "sourcePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/gamedao/GameDAO.sol",
+  "ast": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/gamedao/GameDAO.sol",
+    "exportedSymbols": {
+      "GameDAO": [
+        261
+      ]
+    },
+    "id": 262,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 261,
+        "linearizedBaseContracts": [
+          261
+        ],
+        "name": "GameDAO",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 262,
+        "src": "29:19:5"
+      }
+    ],
+    "src": "29:19:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/gamedao/GameDAO.sol",
+    "exportedSymbols": {
+      "GameDAO": [
+        261
+      ]
+    },
+    "id": 262,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 261,
+        "linearizedBaseContracts": [
+          261
+        ],
+        "name": "GameDAO",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 262,
+        "src": "29:19:5"
+      }
+    ],
+    "src": "29:19:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.13",
+  "updatedAt": "2019-09-27T20:29:20.656Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

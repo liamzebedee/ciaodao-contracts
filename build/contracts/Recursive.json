@@ -1,0 +1,82 @@
+{
+  "contractName": "Recursive",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/plutodao/Recursive.sol\":\"Recursive\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/plutodao/Recursive.sol\":{\"keccak256\":\"0xe9a413b32ce728703f3a1624b93cb3dd1ee624b797d6c0f45ba1fec6cbd1aa85\",\"urls\":[\"bzzr://e68919c74f79d7d439d11db7a1e01cdb67756288cd09c47f4f33aef68e0459fa\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a7230582013e3385189dadea53d9f4a0f87efb9f92c96a8935465024cc7babc16c1a101bf0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a7230582013e3385189dadea53d9f4a0f87efb9f92c96a8935465024cc7babc16c1a101bf0029",
+  "sourceMap": "77:23:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;77:23:13;;;;;;;",
+  "deployedSourceMap": "77:23:13:-;;;;;",
+  "source": "// This space allows you to fork it\n// and spin up more spaces\n// based on \n\ncontract Recursive {\n\n}",
+  "sourcePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/plutodao/Recursive.sol",
+  "ast": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/plutodao/Recursive.sol",
+    "exportedSymbols": {
+      "Recursive": [
+        382
+      ]
+    },
+    "id": 383,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 382,
+        "linearizedBaseContracts": [
+          382
+        ],
+        "name": "Recursive",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 383,
+        "src": "77:23:13"
+      }
+    ],
+    "src": "77:23:13"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/plutodao/Recursive.sol",
+    "exportedSymbols": {
+      "Recursive": [
+        382
+      ]
+    },
+    "id": 383,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 382,
+        "linearizedBaseContracts": [
+          382
+        ],
+        "name": "Recursive",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 383,
+        "src": "77:23:13"
+      }
+    ],
+    "src": "77:23:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.13",
+  "updatedAt": "2019-09-26T18:20:00.744Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

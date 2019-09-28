@@ -1,0 +1,233 @@
+{
+  "contractName": "HumanSpace",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/HumanSpace.sol\":\"HumanSpace\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/HumanSpace.sol\":{\"keccak256\":\"0xfd02756cfa8c94674f7e33b4a509893632193e59ed086762e30f90f3c932ed7f\",\"urls\":[\"bzzr://53740053b377d45f34d821846b3911c349970690b441ea7e2460a0409c6e8894\"]},\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/IHumanityRegistry.sol\":{\"keccak256\":\"0xf2009f9e589bdb447faaa70e19314855474f73e9a8f59c3bd17a6c3d722fd2f5\",\"urls\":[\"bzzr://384f9eee8ac1bba57cf85d41960b6a079b64e14a60175354298dbcdb9473826e\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820d0243eb8217d76506f973f192b2b424655363d3ca28260fca0bdf66df42473e90029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820d0243eb8217d76506f973f192b2b424655363d3ca28260fca0bdf66df42473e90029",
+  "sourceMap": "35:91:8:-;;;101:23;8:9:-1;5:2;;;30:1;27;20:12;5:2;101:23:8;35:91;;;;;;",
+  "deployedSourceMap": "35:91:8:-;;;;;",
+  "source": "import \"./IHumanityRegistry.sol\";\n\ncontract HumanSpace {\n    IHumanityRegistry humanityRegistry;\n    constructor() public {}\n}",
+  "sourcePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/HumanSpace.sol",
+  "ast": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/HumanSpace.sol",
+    "exportedSymbols": {
+      "HumanSpace": [
+        344
+      ]
+    },
+    "id": 345,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/IHumanityRegistry.sol",
+        "file": "./IHumanityRegistry.sol",
+        "id": 337,
+        "nodeType": "ImportDirective",
+        "scope": 345,
+        "sourceUnit": 354,
+        "src": "0:33:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 344,
+        "linearizedBaseContracts": [
+          344
+        ],
+        "name": "HumanSpace",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 339,
+            "name": "humanityRegistry",
+            "nodeType": "VariableDeclaration",
+            "scope": 344,
+            "src": "61:34:8",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IHumanityRegistry_$353",
+              "typeString": "contract IHumanityRegistry"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 338,
+              "name": "IHumanityRegistry",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 353,
+              "src": "61:17:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IHumanityRegistry_$353",
+                "typeString": "contract IHumanityRegistry"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 342,
+              "nodeType": "Block",
+              "src": "122:2:8",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 343,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 340,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:2:8"
+            },
+            "returnParameters": {
+              "id": 341,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "122:0:8"
+            },
+            "scope": 344,
+            "src": "101:23:8",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 345,
+        "src": "35:91:8"
+      }
+    ],
+    "src": "0:126:8"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/HumanSpace.sol",
+    "exportedSymbols": {
+      "HumanSpace": [
+        344
+      ]
+    },
+    "id": 345,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/humans/IHumanityRegistry.sol",
+        "file": "./IHumanityRegistry.sol",
+        "id": 337,
+        "nodeType": "ImportDirective",
+        "scope": 345,
+        "sourceUnit": 354,
+        "src": "0:33:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 344,
+        "linearizedBaseContracts": [
+          344
+        ],
+        "name": "HumanSpace",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 339,
+            "name": "humanityRegistry",
+            "nodeType": "VariableDeclaration",
+            "scope": 344,
+            "src": "61:34:8",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IHumanityRegistry_$353",
+              "typeString": "contract IHumanityRegistry"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 338,
+              "name": "IHumanityRegistry",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 353,
+              "src": "61:17:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IHumanityRegistry_$353",
+                "typeString": "contract IHumanityRegistry"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 342,
+              "nodeType": "Block",
+              "src": "122:2:8",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 343,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 340,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:2:8"
+            },
+            "returnParameters": {
+              "id": 341,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "122:0:8"
+            },
+            "scope": 344,
+            "src": "101:23:8",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 345,
+        "src": "35:91:8"
+      }
+    ],
+    "src": "0:126:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.13",
+  "updatedAt": "2019-09-26T18:20:00.742Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

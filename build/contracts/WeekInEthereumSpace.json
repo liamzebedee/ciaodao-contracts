@@ -1,0 +1,82 @@
+{
+  "contractName": "WeekInEthereumSpace",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/weekinethereum/WeekInEthereumSpace.sol\":\"WeekInEthereumSpace\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/weekinethereum/WeekInEthereumSpace.sol\":{\"keccak256\":\"0x957f51a08c5c71b2fe884b4e38e2b8fac8f706a90a4e3754b958d2c5517f7b83\",\"urls\":[\"bzzr://9d3447a626d70145e24232634edab3050b16718507f779382d14ad9c95a0d951\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820411913e49f0b0d1c649b203e3822233529d6c402b995e01e22dc98d4406b72880029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820411913e49f0b0d1c649b203e3822233529d6c402b995e01e22dc98d4406b72880029",
+  "sourceMap": "107:33:14:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:33:14;;;;;;;",
+  "deployedSourceMap": "107:33:14:-;;;;;",
+  "source": "// This is a space defined by the holders of the Lock token in Evan van Ness' Week in Ethereum newsletter\n\ncontract WeekInEthereumSpace {\n\n}",
+  "sourcePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/weekinethereum/WeekInEthereumSpace.sol",
+  "ast": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/weekinethereum/WeekInEthereumSpace.sol",
+    "exportedSymbols": {
+      "WeekInEthereumSpace": [
+        384
+      ]
+    },
+    "id": 385,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 384,
+        "linearizedBaseContracts": [
+          384
+        ],
+        "name": "WeekInEthereumSpace",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 385,
+        "src": "107:33:14"
+      }
+    ],
+    "src": "107:33:14"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/weekinethereum/WeekInEthereumSpace.sol",
+    "exportedSymbols": {
+      "WeekInEthereumSpace": [
+        384
+      ]
+    },
+    "id": 385,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 384,
+        "linearizedBaseContracts": [
+          384
+        ],
+        "name": "WeekInEthereumSpace",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 385,
+        "src": "107:33:14"
+      }
+    ],
+    "src": "107:33:14"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.13",
+  "updatedAt": "2019-09-26T18:20:00.744Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

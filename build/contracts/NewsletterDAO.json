@@ -1,0 +1,158 @@
+{
+  "contractName": "NewsletterDAO",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "join",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"join\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/newsletterdao/NewsletterDAO.sol\":\"NewsletterDAO\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/newsletterdao/NewsletterDAO.sol\":{\"keccak256\":\"0x67c7abbe31f928e2e9b34bb9891fd4e65ee7e023a7588a8b1037239ddd3498cb\",\"urls\":[\"bzzr://ef0c6d1ed0c817351277a8891dc786b0cd21c6f43f1daa833fd67c51fff2136f\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606380601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063b688a36314602d575b600080fd5b60336035565b005b56fea165627a7a72305820ddc58fe7e9c5f34f1b244f6a561bf71d0d4c60f8d606311be2354f375c2cb4180029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063b688a36314602d575b600080fd5b60336035565b005b56fea165627a7a72305820ddc58fe7e9c5f34f1b244f6a561bf71d0d4c60f8d606311be2354f375c2cb4180029",
+  "sourceMap": "82:93:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:93:10;;;;;;;",
+  "deployedSourceMap": "82:93:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:93:10;;;;;;;;;;;;;;;;;;;111:62;;;:::i;:::-;;;:::o",
+  "source": "// A DAO based on a membership subscription model\n// Members join for a deposit\n\n\ncontract NewsletterDAO {\n    function join() external {\n        // require $5 deposit\n    }\n}",
+  "sourcePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/newsletterdao/NewsletterDAO.sol",
+  "ast": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/newsletterdao/NewsletterDAO.sol",
+    "exportedSymbols": {
+      "NewsletterDAO": [
+        359
+      ]
+    },
+    "id": 360,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 359,
+        "linearizedBaseContracts": [
+          359
+        ],
+        "name": "NewsletterDAO",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 357,
+              "nodeType": "Block",
+              "src": "136:37:10",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 358,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "join",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 355,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:2:10"
+            },
+            "returnParameters": {
+              "id": 356,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "136:0:10"
+            },
+            "scope": 359,
+            "src": "111:62:10",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 360,
+        "src": "82:93:10"
+      }
+    ],
+    "src": "82:93:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liamz/Documents/open-source/everest/fundao/contracts/experiments/newsletterdao/NewsletterDAO.sol",
+    "exportedSymbols": {
+      "NewsletterDAO": [
+        359
+      ]
+    },
+    "id": 360,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 359,
+        "linearizedBaseContracts": [
+          359
+        ],
+        "name": "NewsletterDAO",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 357,
+              "nodeType": "Block",
+              "src": "136:37:10",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 358,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "join",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 355,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:2:10"
+            },
+            "returnParameters": {
+              "id": 356,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "136:0:10"
+            },
+            "scope": 359,
+            "src": "111:62:10",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 360,
+        "src": "82:93:10"
+      }
+    ],
+    "src": "82:93:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.13",
+  "updatedAt": "2019-09-26T18:20:00.743Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
