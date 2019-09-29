@@ -17,7 +17,8 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
-
+const Web3 = require("web3")
+const web3 = new Web3();
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const PrivateKeyProvider = require("truffle-privatekey-provider");
 
@@ -69,7 +70,6 @@ module.exports = {
       gasPrice: 10000000000,
     },
 
-    // gasPrice: gas price in gwei
     ropsten: {
       provider: () => new PrivateKeyProvider(process.env.TRUFFLE_PRIVATE_KEY, "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
       network_id: 3
@@ -82,18 +82,12 @@ module.exports = {
       provider: () => new PrivateKeyProvider(process.env.TRUFFLE_PRIVATE_KEY, "https://goerli.infura.io/v3/" + process.env.INFURA_API_KEY),
       network_id: 5
     },
-    // main ethereum network(mainnet)
-    main: {
-      provider: () => new HDWalletProvider(process.env.GOERLI_MNEMONIC, "https://mainnet.infura.io/v3/" + process.env.INFURA_API_KEY),
-      network_id: 1
+    mainnet: {
+      provider: () => new PrivateKeyProvider(process.env.MAINNET_PRIVATE_KEY, "https://mainnet.infura.io/v3/" + process.env.INFURA_API_KEY),
+      network_id: 1,
+      // gasPrice: web3.utils.toWei('16', 'gwei')
     }
 
-    // Useful for private networks
-    // private: {
-      // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
-      // network_id: 2111,   // This network is yours, in the cloud.
-      // production: true    // Treats this network as if it was a public net. (default: false)
-    // }
   },
 
   // Set default mocha options here, use special reporters etc.
@@ -107,10 +101,10 @@ module.exports = {
       // version: "0.5.1",    // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
-      //  optimizer: {
-      //    enabled: false,
-      //    runs: 200
-      //  },
+       optimizer: {
+         enabled: false,
+         runs: 200
+       },
       //  evmVersion: "byzantium"
       // }
     }

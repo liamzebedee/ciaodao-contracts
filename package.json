@@ -5,13 +5,15 @@
   "license": "MIT",
   "scripts": {
     "compile": "truffle compile",
-    "migrate:testnet": "source .env && truffle migrate --reset --network goerli"
+    "migrate:testnet": "source .env && truffle migrate --reset --network ropsten",
+    "migrate:mainnet": "source .env && truffle migrate --network mainnet"
   },
   "devDependencies": {
     "truffle": "^5.0.33"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^2.3.0",
+    "remixd": "^0.1.8-alpha.12",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-privatekey-provider": "^1.3.0",
     "zeppelin-solidity": "^1.12.0"
